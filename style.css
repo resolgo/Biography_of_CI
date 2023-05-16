@@ -47,6 +47,18 @@ p{
     margin: 20px;
 }
 
+@media screen and (max-width: 400px) {
+  p{
+    font-size: 15px;
+  }
+  .bibliografía-del-fundador{
+    background-color:#6096B4;
+    box-shadow: inset 0px 0px 10px 0 #EEE9DA;
+    margin: 2px;
+  }
+}
+
+
 a:hover{
     color: #EEE9DA;
 }
